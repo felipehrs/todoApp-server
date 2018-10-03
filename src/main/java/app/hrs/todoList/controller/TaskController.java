@@ -1,7 +1,7 @@
-package app.hrs.controller;
+package app.hrs.todoList.controller;
 
-import app.hrs.model.Task;
-import app.hrs.repository.TaskRepository;
+import app.hrs.todoList.model.Task;
+import app.hrs.todoList.repository.TaskRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

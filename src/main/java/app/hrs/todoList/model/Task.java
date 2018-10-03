@@ -1,4 +1,4 @@
-package app.hrs.model;
+package app.hrs.todoList.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

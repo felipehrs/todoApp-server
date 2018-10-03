@@ -1,8 +1,7 @@
-package app.hrs.repository;
+package app.hrs.todoList.repository;
 
-import app.hrs.model.Task;
+import app.hrs.todoList.model.Task;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
