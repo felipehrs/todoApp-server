@@ -17,7 +17,7 @@ public class TaskController {
     @Autowired
     private TaskRepository taskRepository;
 
-    @GetMapping(path = "/")
+    @GetMapping("/")
     public List<Task> index() {
         return taskRepository.findAll();
     }
